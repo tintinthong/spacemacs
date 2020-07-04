@@ -52,7 +52,7 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
-     ;; spell-checking
+     spell-checking
      (javascript :variables
                  javascript-fmt-on-save t
                  javascript-backend 'tide
@@ -61,7 +61,6 @@ values."
      version-control
      prettier
      themes-megapack
-     lsp
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
