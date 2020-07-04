@@ -17,10 +17,10 @@ git clone https://github.com/tintinthong/spacemacs.git ~/.spacemacs.d/
     
     
    
-** Local Installs 
+** Local Dependencies  
    - Ag
    - Ispell
-   - [[https://www.spacemacs.org/layers/+lang/javascript/README.html][javascript]] (eslint, prettier)
+   - [[https://www.spacemacs.org/layers/+lang/javascript/README.html][javascript]] /[[https://develop.spacemacs.org/layers/+lang/typescript/README.html][ typescript]]   (eslint, prettier)
    -[[https://develop.spacemacs.org/layers/+lang/haskell/README.html][ haskell]] (hlint, stylish-haskell)
 
   
