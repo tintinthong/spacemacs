@@ -9,13 +9,6 @@
 ** Setup 
   
 *** Clone the repo  
-    
-*** Create ~/.spacemacs.d 
-*** Insert .spacemacs file and rename to init.el 
-    Follow stack exchange link [[https://emacs.stackexchange.com/questions/19945/command-to-insert-code-block][ Place .spacemacs file in different directory]] 
-    
-    
-    
-   
-
- 
+    #+begin_src 
+git clone https://github.com/tintinthong/spacemacs.git ~/.spacemacs.d/
+    #+end_src
