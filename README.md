@@ -12,3 +12,17 @@
     #+begin_src 
 git clone https://github.com/tintinthong/spacemacs.git ~/.spacemacs.d/
     #+end_src
+
+
+    
+    
+   
+** Local Installs 
+   - Ag
+   - Ispell
+   - [[https://www.spacemacs.org/layers/+lang/javascript/README.html][javascript]] (eslint, prettier)
+   -[[https://develop.spacemacs.org/layers/+lang/haskell/README.html][ haskell]] (hlint, stylish-haskell)
+
+  
+    
+    
