@@ -1,0 +1,19 @@
+* Things to do 
+ 
+** Vase 
+  
+*** TODO [#A] Write out master backlogs from athena discussion
+*** TODO [#B] Add default demographics for sixtyNine
+*** TODO [#C] Remove athena query (Merge sixtyNine and athena)  
+  
+   
+** EAI 
+   
+*** TODO [#A] Complete card on template haskell and IORef 
+
+   
+** Basketball Leaderboard 
+*** TODO [#A] Build UI for leaderboard page 
+    
+  
+  
