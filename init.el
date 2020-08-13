@@ -30,47 +30,42 @@ values."
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(elm
-     (typescript :variables
-                 typescript-backend 'tide
-                 typescript-fmt-on-save t
-                 typescript-fmt-tool 'prettier
-                 typescript-linter 'eslint
-                 )
-     yaml
+   '(
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     yaml
      helm
      auto-completion
      emacs-lisp
      git
      markdown
      org
-     (
-       typescript :variables
-                  typescript-fmt-on-save t
-                  typescript-backend 'tide
-                  )
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
      spell-checking
+     (
+      typescript :variables
+                 typescript-backend 'tide
+                 typescript-fmt-on-save 'nil
+                 typescript-fmt-tool 'prettier
+                 typescript-fmt-on-save t
+                 )
      (javascript :variables
-                 javascript-fmt-on-save t
                  javascript-backend 'tide
-                 javascript-fmt-tool 'prettier)
+                 javascript-fmt-tool 'prettier
+                 javascript-linter 'eslint
+                 )
+     prettier
      syntax-checking
      version-control
-     prettier
+     docker
      themes-megapack
      erc
-     (haskell :variables
-              haskell-completion-backed 'ghci)
      games
-     docker
      command-log
      search-engine
      spotify
