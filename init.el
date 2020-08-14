@@ -46,7 +46,6 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
-     spell-checking
      (
       typescript :variables
                  typescript-backend 'tide
@@ -59,16 +58,17 @@ values."
                  javascript-fmt-tool 'prettier
                  javascript-linter 'eslint
                  )
+     (
+      json :variables
+           json-fmt-tool 'prettier
+           )
      prettier
      syntax-checking
      version-control
      docker
      themes-megapack
-     erc
-     games
-     command-log
-     search-engine
      spotify
+     chrome
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
