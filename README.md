@@ -13,10 +13,6 @@
 git clone https://github.com/tintinthong/spacemacs.git ~/.spacemacs.d/
     #+end_src
 
-
-    
-    
-   
 ** Local Dependencies  
    - Ag
    - Ispell
