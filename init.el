@@ -60,7 +60,6 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
-     spell-checking
      (javascript :variables
                  javascript-fmt-on-save t
                  javascript-backend 'tide
@@ -71,12 +70,7 @@ values."
      themes-megapack
      erc
      (haskell :variables
-              haskell-completion-backed 'ghci)
-     games
-     docker
-     command-log
-     search-engine
-     spotify
+              haskell-completion-backend 'ghci)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
